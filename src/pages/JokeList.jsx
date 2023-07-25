@@ -5,13 +5,13 @@ const { jokeList } = useSelector((state)=>{state.form})
 
     return (
         <div>
-            jokeList.map( (joke)=> {
+            {jokeList.map( (joke)=> {
                 return (
                     <div>
                        {joke} 
                     </div>
                 )
-            } )
+            } )}
         </div>
     )
 }
